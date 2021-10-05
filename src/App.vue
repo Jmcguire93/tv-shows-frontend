@@ -8,6 +8,8 @@
       <router-link to="/shows">Shows</router-link>
       |
       <router-link to="/shows/new">ShowsNew</router-link>
+      |
+      <router-link to="/shows/show">ShowsShow</router-link>
     </div>
     <router-view />
   </div>
