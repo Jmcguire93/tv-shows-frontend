@@ -12,7 +12,7 @@
       <p>Network: {{ show.network }}</p>
       <p>Favorite: {{ show.favorite }}</p>
       <!-- <p>Image: {{ show.image }}</p> -->
-      <p>User: {{ show.user_id }}</p>
+      <p>User: {{ show.user.name }}</p>
     </div>
   </div>
 </template>
