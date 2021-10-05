@@ -7,9 +7,11 @@
       |
       <router-link to="/shows">Shows</router-link>
       |
-      <router-link to="/shows/new">ShowsNew</router-link>
-      |
-      <router-link to="/shows/show">ShowsShow</router-link>
+      <router-link to="/shows/new">New Show</router-link>
+      <!-- | -->
+      <!-- <router-link to="/shows/:id">ShowsShow</router-link> -->
+      <!-- | -->
+      <!-- <router-link to="/shows/:id">ShowsEdit</router-link> -->
     </div>
     <router-view />
   </div>

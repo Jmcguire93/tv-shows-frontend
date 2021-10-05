@@ -11,6 +11,7 @@
     <p>Favorite: {{ show.favorite }}</p>
     <!-- <p>Image: {{ show.image }}</p> -->
     <p>User: {{ show.user_id }}</p>
+    <router-link v-bind:to="`/shows/${show.id}/edit`">Edit show</router-link>
     <router-link to="/shows">Back to all shows</router-link>
   </div>
 </template>
