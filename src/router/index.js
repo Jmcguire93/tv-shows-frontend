@@ -6,6 +6,7 @@ import ShowsNew from "../views/ShowsNew.vue";
 import ShowsShow from "../views/ShowsShow.vue";
 import ShowsEdit from "../views/ShowsEdit.vue";
 import Signup from "../views/Signup.vue";
+import Login from "../views/Login.vue";
 
 Vue.use(VueRouter);
 
@@ -47,6 +48,11 @@ const routes = [
     path: "/signup",
     name: "signup",
     component: Signup,
+  },
+  {
+    path: "/login",
+    name: "login",
+    component: Login,
   },
 ];
 
